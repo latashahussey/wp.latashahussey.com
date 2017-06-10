@@ -1,0 +1,181 @@
+/*
+Theme Name: latashahussey
+Author: LaTasha Hussey
+Description: Bootstrap website template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+/* stylesheet for LaTasha Hussey's Portfolio */
+
+
+/*  -------- Color Pallette ------------
+
+#F8FFF4: cream | used for main headings and most paragraphs
+#3A3042: dark purple | used for area backgrounds, main header background, and paragraphs
+#846193: light purple | used for area backgrounds, buttons, and paragraphs
+#E75A7C: deep pink | used for rollovers and accents
+#17BEBB: turquoise | used for area backgrounds and accents
+
+*/
+
+
+/* -------- Fonts ---------------------
+
+Bebas Neue:  display font | used for headings and nav
+Questrial:   sans-serif font | used for paragraphs
+Black Jack:  script font | used for brand name
+
+*/
+
+@font-face {
+    font-family: 'Questrial';
+    src: url('font/Questrial-Regular.eot');
+    src: url('font/Questrial-Regular.eot?#iefix') format('embedded-opentype'), url('font/Questrial-Regular.woff2') format('woff2'), url('font/Questrial-Regular.woff') format('woff'), url('font/Questrial-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Black Jack';
+    src: url('font/BlackJack.eot');
+    src: url('font/BlackJack.eot?#iefix') format('embedded-opentype'), url('font/BlackJack.woff2') format('woff2'), url('font/BlackJack.woff') format('woff'), url('font/BlackJack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('font/BebasNeue.eot');
+    src: url('font/BebasNeue.eot?#iefix') format('embedded-opentype'), url('font/BebasNeue.woff2') format('woff2'), url('font/BebasNeue.woff') format('woff'), url('font/BebasNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*---------- Table of Contents----------
+
+- Base Styles
+  - Header
+  - Main
+    -- Portfolio
+    -- Skills
+    -- Contact
+  - Footer
+
+*/
+
+
+/***** BASE STYLES *****/
+
+body {
+    font-family: "Questrial";
+}
+
+h1 {
+    color: #3a3042;
+    font-family: "Black Jack", cursive;
+}
+
+h2 {
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 58px;
+    padding: 50px;
+}
+
+a {
+    color: #3a3042;
+}
+
+a:hover {
+    color: #e75a7c;
+    text-decoration: none;
+}
+
+
+/*---Header---*/
+
+header .brand {
+    font-size: 45px;
+}
+
+.brand-tag {
+    font-family: "Questrial", sans-serif;
+    font-size: 20px;
+}
+
+
+/*---Jumbotron---*/
+
+.jumbotron {
+    background: url('img/glasses-coffee-desk-800.jpeg');
+    background-size: cover;
+}
+
+.jumbotron p {
+    color: #fff;
+    font-size: 48px;
+    padding-top: 60px;
+}
+
+.greeting {
+    color: #e75a7c;
+}
+
+
+/*---Portfolio---*/
+
+.portfolio-header {
+    text-align: center;
+}
+
+.portfolio, .portfolio-header {
+    color: #846193;
+    padding-bottom: 50px;
+}
+
+.card-deck-wrapper {
+    margin-bottom: 50px;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+
+/*---Skills---*/
+
+.skills {
+    background-image: url('img/glasses-coffee-desk-800.jpeg');
+    background-position: bottom;
+    background-size: cover;
+    /*background-color: #3a3042;*/
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skill-icon {
+    color: #fff;
+    font-size: 95px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+/*---Footer---*/
+
+footer {
+    border-top: 1px solid #3a3042;
+    color: #3a3042;
+    font-size: 24px;
+    padding: 20px;
+}
+
+footer a {
+    padding: 10px;
+}
+
+.brand {
+    font-family: "Black Jack", cursive;
+}
